@@ -1,0 +1,21 @@
+{
+    "confidence": "Confidence Score",
+    "logprob": "Log Probability",
+    "segment": "Transcript Segment",
+    "token": "Transcript Token",
+    "threshold": "Confidence Threshold",
+    "flag": "Segment Flag",
+    "ok": "Reliable Segment",
+    "needs_review": "Unreliable Segment",
+    "whisper": "OpenAI Whisper Model",
+    "transcribe": "Audio Transcription",
+    "avg_logprob": "Average Log Probability",
+    "word_level": "Word-Level Confidence",
+    "segment_level": "Segment-Level Confidence",
+    "noisy_data": "Noisy Training Data",
+    "re_record": "Re-record Prompt",
+    "filtering": "Data Filtering",
+    "error": "Error Handling",
+    "api": "FastAPI Endpoint",
+    "test": "Pytest Unit Test"
+}
