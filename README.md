@@ -119,6 +119,7 @@ http://localhost:8000
 * Whisper (OpenAI)
 * Pytest
 * Git
+* Docker
 
 ** Future Improvements
  * Word-level confidence visualization
