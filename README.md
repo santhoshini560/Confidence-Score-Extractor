@@ -19,15 +19,19 @@ Project Structure:
 │
 ├── app
 │   └── main.py              # FastAPI app with /confidence endpoint
+
 │
 ├── tests
 │   └── test_api.py          # Unit tests
+
 │
 ├── configs
 │   └── confidence_terms.json # Glossary of confidence-related terms
 │
+
 ├── logs
 │
+
 ├── Dockerfile
 ├── requirements.txt
 ├── pytest.ini
@@ -101,7 +105,8 @@ Code
 2 passed
 
 Run container
-bash
+
+*bash
 docker run -p 8000:8000 confidence-extractor
 API will be available at:
 
@@ -114,6 +119,7 @@ http://localhost:8000
 * Whisper (OpenAI)
 * Pytest
 * Git
+
 ** Future Improvements
  * Word-level confidence visualization
  * Integration with transcript cleaner pipeline
