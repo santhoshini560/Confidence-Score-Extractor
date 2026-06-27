@@ -1,0 +1,35 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Git internals
+.git/
+
+# Logs
+logs/
+*.log
+
+# Test outputs
+tests/__pycache__/
+.coverage
+htmlcov/
+
+# Whisper / audio artifacts
+*.wav
+*.mp3
+*.ogg
+*.flac
+
+# FastAPI / Uvicorn artifacts
+*.db
+*.sqlite
+*.pid
+
+# OS-specific files
+.DS_Store
+Thumbs.db
